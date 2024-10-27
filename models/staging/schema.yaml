@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: raw_3_airflow         # The source name to reference in the SQL file
+    schema: website_data         # Schema name
+    tables:
+      - name: staging_website_data      # Table name within the schema
